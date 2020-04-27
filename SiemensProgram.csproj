@@ -1,0 +1,1693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39FAEA33-8C50-403F-94AE-9E8E4F44FB32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SiemensProgram</RootNamespace>
+    <AssemblyName>SiemensProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConveyorAuto\Conveyor10_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor10_1Auto.Designer.cs">
+      <DependentUpon>Conveyor10_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor10_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor10_2.Designer.cs">
+      <DependentUpon>Conveyor10_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor10_3Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor10_3Auto.Designer.cs">
+      <DependentUpon>Conveyor10_3Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor11Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor11Auto.Designer.cs">
+      <DependentUpon>Conveyor11Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor12Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor12Auto.Designer.cs">
+      <DependentUpon>Conveyor12Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor13Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor13Auto.Designer.cs">
+      <DependentUpon>Conveyor13Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor14Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor14Auto.Designer.cs">
+      <DependentUpon>Conveyor14Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor15Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor15Auto.Designer.cs">
+      <DependentUpon>Conveyor15Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor1Auto.Designer.cs">
+      <DependentUpon>Conveyor1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor2Auto.Designer.cs">
+      <DependentUpon>Conveyor2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor3Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor3Auto.Designer.cs">
+      <DependentUpon>Conveyor3Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor3_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor3_1Auto.Designer.cs">
+      <DependentUpon>Conveyor3_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor3_2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor3_2Auto.Designer.cs">
+      <DependentUpon>Conveyor3_2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor4Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor4Auto.Designer.cs">
+      <DependentUpon>Conveyor4Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor5Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor5Auto.Designer.cs">
+      <DependentUpon>Conveyor5Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor6Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor6Auto.Designer.cs">
+      <DependentUpon>Conveyor6Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor7Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor7Auto.Designer.cs">
+      <DependentUpon>Conveyor7Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor8Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor8Auto.Designer.cs">
+      <DependentUpon>Conveyor8Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor9Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorAuto\Conveyor9Auto.Designer.cs">
+      <DependentUpon>Conveyor9Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor1.Designer.cs">
+      <DependentUpon>Conveyor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor10.Designer.cs">
+      <DependentUpon>Conveyor10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor10_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor10_1.Designer.cs">
+      <DependentUpon>Conveyor10_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor11.Designer.cs">
+      <DependentUpon>Conveyor11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor12.Designer.cs">
+      <DependentUpon>Conveyor12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor13.Designer.cs">
+      <DependentUpon>Conveyor13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor14.Designer.cs">
+      <DependentUpon>Conveyor14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor15.Designer.cs">
+      <DependentUpon>Conveyor15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor2.Designer.cs">
+      <DependentUpon>Conveyor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor3.Designer.cs">
+      <DependentUpon>Conveyor3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor3_1.Designer.cs">
+      <DependentUpon>Conveyor3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor3_2.Designer.cs">
+      <DependentUpon>Conveyor3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor4.Designer.cs">
+      <DependentUpon>Conveyor4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor4_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor4_1.Designer.cs">
+      <DependentUpon>Conveyor4_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor5.Designer.cs">
+      <DependentUpon>Conveyor5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor5_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor5_1.Designer.cs">
+      <DependentUpon>Conveyor5_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor6.Designer.cs">
+      <DependentUpon>Conveyor6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor6_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor6_1.Designer.cs">
+      <DependentUpon>Conveyor6_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor7.Designer.cs">
+      <DependentUpon>Conveyor7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor7_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor7_1.Designer.cs">
+      <DependentUpon>Conveyor7_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor8.Designer.cs">
+      <DependentUpon>Conveyor8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor8_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor8_1.Designer.cs">
+      <DependentUpon>Conveyor8_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor9.Designer.cs">
+      <DependentUpon>Conveyor9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor9_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorHand\Conveyor9_1.Designer.cs">
+      <DependentUpon>Conveyor9_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka1.Designer.cs">
+      <DependentUpon>DzaKolibrovka1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka2.Designer.cs">
+      <DependentUpon>DzaKolibrovka2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaKolibrovka\Dzakolibrovka3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaKolibrovka\Dzakolibrovka3.Designer.cs">
+      <DependentUpon>Dzakolibrovka3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka4.Designer.cs">
+      <DependentUpon>DzaKolibrovka4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka5.Designer.cs">
+      <DependentUpon>DzaKolibrovka5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaKolibrovka\DzaKolibrovka6.Designer.cs">
+      <DependentUpon>DzaKolibrovka6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza1.Designer.cs">
+      <DependentUpon>OtladkaDza1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza2.Designer.cs">
+      <DependentUpon>OtladkaDza2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza3.Designer.cs">
+      <DependentUpon>OtladkaDza3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza4.Designer.cs">
+      <DependentUpon>OtladkaDza4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza5.Designer.cs">
+      <DependentUpon>OtladkaDza5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DzaOtladka\OtladkaDza6.Designer.cs">
+      <DependentUpon>OtladkaDza6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza1_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza1_1.Designer.cs">
+      <DependentUpon>Dza1_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza1_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza1_2.Designer.cs">
+      <DependentUpon>Dza1_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza2_1.Designer.cs">
+      <DependentUpon>Dza2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza2_2.Designer.cs">
+      <DependentUpon>Dza2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza3_1.Designer.cs">
+      <DependentUpon>Dza3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza3_2.Designer.cs">
+      <DependentUpon>Dza3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza4_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza4_1.Designer.cs">
+      <DependentUpon>Dza4_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza4_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza4_2.Designer.cs">
+      <DependentUpon>Dza4_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza5_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza5_1.Designer.cs">
+      <DependentUpon>Dza5_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza5_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza5_2.Designer.cs">
+      <DependentUpon>Dza5_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza6_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza6_1.Designer.cs">
+      <DependentUpon>Dza6_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza\Dza6_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza\Dza6_2.Designer.cs">
+      <DependentUpon>Dza6_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza1_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza1_1Auto.Designer.cs">
+      <DependentUpon>Dza1_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza1_2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza1_2Auto.Designer.cs">
+      <DependentUpon>Dza1_2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza2_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza2_1Auto.Designer.cs">
+      <DependentUpon>Dza2_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza2_2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza2_2Auto.Designer.cs">
+      <DependentUpon>Dza2_2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza3_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza3_1Auto.Designer.cs">
+      <DependentUpon>Dza3_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza3_2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza3_2Auto.Designer.cs">
+      <DependentUpon>Dza3_2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza4_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza4_1Auto.Designer.cs">
+      <DependentUpon>Dza4_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza4_2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza4_2Auto.Designer.cs">
+      <DependentUpon>Dza4_2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza5_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza5_1Auto.Designer.cs">
+      <DependentUpon>Dza5_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza5_2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza5_2Auto.Designer.cs">
+      <DependentUpon>Dza5_2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza6_1Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza6_1Auto.Designer.cs">
+      <DependentUpon>Dza6_1Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza6_2Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dza_Auto\Dza6_2Auto.Designer.cs">
+      <DependentUpon>Dza6_2Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic1.Designer.cs">
+      <DependentUpon>LevelGraphic1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic2.Designer.cs">
+      <DependentUpon>LevelGraphic2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic3.Designer.cs">
+      <DependentUpon>LevelGraphic3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic4.Designer.cs">
+      <DependentUpon>LevelGraphic4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic5.Designer.cs">
+      <DependentUpon>LevelGraphic5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelGraphic\LevelGraphic6.Designer.cs">
+      <DependentUpon>LevelGraphic6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv10\Conv10_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv10\Conv10_1MB.Designer.cs">
+      <DependentUpon>Conv10_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv10\Conv10_2MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv10\Conv10_2MB.Designer.cs">
+      <DependentUpon>Conv10_2MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv11\Conv11_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv11\Conv11_1MB.Designer.cs">
+      <DependentUpon>Conv11_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv11\Conv11_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv11\Conv11_3MB.Designer.cs">
+      <DependentUpon>Conv11_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv12\Conv12_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv12\Conv12_1MB.Designer.cs">
+      <DependentUpon>Conv12_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv12\Conv12_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv12\Conv12_3MB.Designer.cs">
+      <DependentUpon>Conv12_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv13\Conv13_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv13\Conv13_1MB.Designer.cs">
+      <DependentUpon>Conv13_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv13\Conv13_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv13\Conv13_3MB.Designer.cs">
+      <DependentUpon>Conv13_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv14\Conv14_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv14\Conv14_1MB.Designer.cs">
+      <DependentUpon>Conv14_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv14\Conv14_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv14\Conv14_3MB.Designer.cs">
+      <DependentUpon>Conv14_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv15\Conv15_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv15\Conv15_1MB.Designer.cs">
+      <DependentUpon>Conv15_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv15\Conv15_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv15\Conv15_3MB.Designer.cs">
+      <DependentUpon>Conv15_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv16\Conv16_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv16\Conv16_1MB.Designer.cs">
+      <DependentUpon>Conv16_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv16\Conv16_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv16\Conv16_3MB.Designer.cs">
+      <DependentUpon>Conv16_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv1\Conv1_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv1\Conv1_1MB.Designer.cs">
+      <DependentUpon>Conv1_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv1\Conv1_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv1\Conv1_3MB.Designer.cs">
+      <DependentUpon>Conv1_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv1\Сonv1_2MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv1\Сonv1_2MB.Designer.cs">
+      <DependentUpon>Сonv1_2MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv2\Conv2_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv2\Conv2_1MB.Designer.cs">
+      <DependentUpon>Conv2_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv2\Conv2_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv2\Conv2_3MB.Designer.cs">
+      <DependentUpon>Conv2_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv3\Conv3_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv3\Conv3_1MB.Designer.cs">
+      <DependentUpon>Conv3_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv3\Conv3_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv3\Conv3_3MB.Designer.cs">
+      <DependentUpon>Conv3_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv4\Conv4_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv4\Conv4_1MB.Designer.cs">
+      <DependentUpon>Conv4_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv4\Conv4_2MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv4\Conv4_2MB.Designer.cs">
+      <DependentUpon>Conv4_2MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv6\Conv6_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv6\Conv6_1MB.Designer.cs">
+      <DependentUpon>Conv6_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv6\Conv6_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv6\Conv6_3MB.Designer.cs">
+      <DependentUpon>Conv6_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv7\Conv7_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv7\Conv7_1MB.Designer.cs">
+      <DependentUpon>Conv7_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv7\Conv7_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv7\Conv7_3MB.Designer.cs">
+      <DependentUpon>Conv7_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv8\Conv8_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv8\Conv8_1MB.Designer.cs">
+      <DependentUpon>Conv8_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv8\Conv8_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv8\Conv8_3MB.Designer.cs">
+      <DependentUpon>Conv8_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv9\Conv9_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv9\Conv9_1MB.Designer.cs">
+      <DependentUpon>Conv9_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Conv9\Conv9_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Conv9\Conv9_3MB.Designer.cs">
+      <DependentUpon>Conv9_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Reserv\Conv20_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Reserv\Conv20_1MB.Designer.cs">
+      <DependentUpon>Conv20_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Reserv\Conv20_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Reserv\Conv20_3MB.Designer.cs">
+      <DependentUpon>Conv20_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Сonv5\Conv5_1MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Сonv5\Conv5_1MB.Designer.cs">
+      <DependentUpon>Conv5_1MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB\Сonv5\Conv5_3MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB\Сonv5\Conv5_3MB.Designer.cs">
+      <DependentUpon>Conv5_3MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\DispSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\DispSetting.Designer.cs">
+      <DependentUpon>DispSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Journal\ActivAvarInMm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Journal\ActivAvarInMm.Designer.cs">
+      <DependentUpon>ActivAvarInMm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Journal\ActiveAvar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Journal\ActiveAvar2.Designer.cs">
+      <DependentUpon>ActiveAvar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Journal\ActiveAvarii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Journal\ActiveAvarii.Designer.cs">
+      <DependentUpon>ActiveAvarii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Journal\HistorySobit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Journal\HistorySobit.Designer.cs">
+      <DependentUpon>HistorySobit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Journal\JournalHist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Journal\JournalHist.Designer.cs">
+      <DependentUpon>JournalHist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Proizvod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Proizvod.Designer.cs">
+      <DependentUpon>Proizvod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Recept\ChangeRecept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Recept\ChangeRecept.Designer.cs">
+      <DependentUpon>ChangeRecept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Recept\RecForOper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Recept\RecForOper.Designer.cs">
+      <DependentUpon>RecForOper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Recept\RecForTehn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Recept\RecForTehn.Designer.cs">
+      <DependentUpon>RecForTehn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\UserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\UserControl.Designer.cs">
+      <DependentUpon>UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv10Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv10Nastr.Designer.cs">
+      <DependentUpon>Conv10Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv11Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv11Nastr.Designer.cs">
+      <DependentUpon>Conv11Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv12Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv12Nastr.Designer.cs">
+      <DependentUpon>Conv12Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv13Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv13Nastr.Designer.cs">
+      <DependentUpon>Conv13Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv14Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv14Nastr.Designer.cs">
+      <DependentUpon>Conv14Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv15Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv15Nastr.Designer.cs">
+      <DependentUpon>Conv15Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv16Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv16Nastr.Designer.cs">
+      <DependentUpon>Conv16Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv1Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv1Nastr.Designer.cs">
+      <DependentUpon>Conv1Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv2Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv2Nastr.Designer.cs">
+      <DependentUpon>Conv2Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv3Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv3Nastr.Designer.cs">
+      <DependentUpon>Conv3Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv4Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv4Nastr.Designer.cs">
+      <DependentUpon>Conv4Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv5Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv5Nastr.Designer.cs">
+      <DependentUpon>Conv5Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv6Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv6Nastr.Designer.cs">
+      <DependentUpon>Conv6Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv7Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv7Nastr.Designer.cs">
+      <DependentUpon>Conv7Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv8Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv8Nastr.Designer.cs">
+      <DependentUpon>Conv8Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nastr\Conv9Nastr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nastr\Conv9Nastr.Designer.cs">
+      <DependentUpon>Conv9Nastr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SensorsTabl\SensorTabl1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl1.Designer.cs">
+      <DependentUpon>SensorTabl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl2.Designer.cs">
+      <DependentUpon>SensorTabl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl3.Designer.cs">
+      <DependentUpon>SensorTabl3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl4.Designer.cs">
+      <DependentUpon>SensorTabl4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorsTabl\SensorTabl5.Designer.cs">
+      <DependentUpon>SensorTabl5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr10Conv9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr10Conv9.Designer.cs">
+      <DependentUpon>ServNastr10Conv9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr11Conv10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr11Conv10.Designer.cs">
+      <DependentUpon>ServNastr11Conv10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr12Conv11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr12Conv11.Designer.cs">
+      <DependentUpon>ServNastr12Conv11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr13Conv12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr13Conv12.Designer.cs">
+      <DependentUpon>ServNastr13Conv12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr14Conv13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr14Conv13.Designer.cs">
+      <DependentUpon>ServNastr14Conv13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr15Conv14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr15Conv14.Designer.cs">
+      <DependentUpon>ServNastr15Conv14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr16Conv15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr16Conv15.Designer.cs">
+      <DependentUpon>ServNastr16Conv15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr17Conv16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr17Conv16.Designer.cs">
+      <DependentUpon>ServNastr17Conv16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr18Dzm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr18Dzm1.Designer.cs">
+      <DependentUpon>ServNastr18Dzm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr19Dzm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr19Dzm2.Designer.cs">
+      <DependentUpon>ServNastr19Dzm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr1Obsh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr1Obsh.Designer.cs">
+      <DependentUpon>ServNastr1Obsh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr2Conv1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr2Conv1.Designer.cs">
+      <DependentUpon>ServNastr2Conv1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr3Conv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr3Conv2.Designer.cs">
+      <DependentUpon>ServNastr3Conv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr4Conv3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr4Conv3.Designer.cs">
+      <DependentUpon>ServNastr4Conv3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr5Conv4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr5Conv4.Designer.cs">
+      <DependentUpon>ServNastr5Conv4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr6Conv5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr6Conv5.Designer.cs">
+      <DependentUpon>ServNastr6Conv5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr7Conv6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr7Conv6.Designer.cs">
+      <DependentUpon>ServNastr7Conv6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr8Conv7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr8Conv7.Designer.cs">
+      <DependentUpon>ServNastr8Conv7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr9Conv8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisNastr\ServNastr9Conv8.Designer.cs">
+      <DependentUpon>ServNastr9Conv8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\MainSkins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Skins\MainSkins.Designer.cs">
+      <DependentUpon>MainSkins.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor10_1Auto.resx">
+      <DependentUpon>Conveyor10_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor10_2.resx">
+      <DependentUpon>Conveyor10_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor10_3Auto.resx">
+      <DependentUpon>Conveyor10_3Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor11Auto.resx">
+      <DependentUpon>Conveyor11Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor12Auto.resx">
+      <DependentUpon>Conveyor12Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor13Auto.resx">
+      <DependentUpon>Conveyor13Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor14Auto.resx">
+      <DependentUpon>Conveyor14Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor15Auto.resx">
+      <DependentUpon>Conveyor15Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor1Auto.resx">
+      <DependentUpon>Conveyor1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor2Auto.resx">
+      <DependentUpon>Conveyor2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor3Auto.resx">
+      <DependentUpon>Conveyor3Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor3_1Auto.resx">
+      <DependentUpon>Conveyor3_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor3_2Auto.resx">
+      <DependentUpon>Conveyor3_2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor4Auto.resx">
+      <DependentUpon>Conveyor4Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor5Auto.resx">
+      <DependentUpon>Conveyor5Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor6Auto.resx">
+      <DependentUpon>Conveyor6Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor7Auto.resx">
+      <DependentUpon>Conveyor7Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor8Auto.resx">
+      <DependentUpon>Conveyor8Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorAuto\Conveyor9Auto.resx">
+      <DependentUpon>Conveyor9Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor1.resx">
+      <DependentUpon>Conveyor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor10.resx">
+      <DependentUpon>Conveyor10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor10_1.resx">
+      <DependentUpon>Conveyor10_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor11.resx">
+      <DependentUpon>Conveyor11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor12.resx">
+      <DependentUpon>Conveyor12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor13.resx">
+      <DependentUpon>Conveyor13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor14.resx">
+      <DependentUpon>Conveyor14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor15.resx">
+      <DependentUpon>Conveyor15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor2.resx">
+      <DependentUpon>Conveyor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor3.resx">
+      <DependentUpon>Conveyor3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor3_1.resx">
+      <DependentUpon>Conveyor3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor3_2.resx">
+      <DependentUpon>Conveyor3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor4.resx">
+      <DependentUpon>Conveyor4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor4_1.resx">
+      <DependentUpon>Conveyor4_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor5.resx">
+      <DependentUpon>Conveyor5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor5_1.resx">
+      <DependentUpon>Conveyor5_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor6.resx">
+      <DependentUpon>Conveyor6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor6_1.resx">
+      <DependentUpon>Conveyor6_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor7.resx">
+      <DependentUpon>Conveyor7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor7_1.resx">
+      <DependentUpon>Conveyor7_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor8.resx">
+      <DependentUpon>Conveyor8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor8_1.resx">
+      <DependentUpon>Conveyor8_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor9.resx">
+      <DependentUpon>Conveyor9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorHand\Conveyor9_1.resx">
+      <DependentUpon>Conveyor9_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaKolibrovka\DzaKolibrovka1.resx">
+      <DependentUpon>DzaKolibrovka1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaKolibrovka\DzaKolibrovka2.resx">
+      <DependentUpon>DzaKolibrovka2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaKolibrovka\Dzakolibrovka3.resx">
+      <DependentUpon>Dzakolibrovka3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaKolibrovka\DzaKolibrovka4.resx">
+      <DependentUpon>DzaKolibrovka4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaKolibrovka\DzaKolibrovka5.resx">
+      <DependentUpon>DzaKolibrovka5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaKolibrovka\DzaKolibrovka6.resx">
+      <DependentUpon>DzaKolibrovka6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaOtladka\OtladkaDza1.resx">
+      <DependentUpon>OtladkaDza1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaOtladka\OtladkaDza2.resx">
+      <DependentUpon>OtladkaDza2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaOtladka\OtladkaDza3.resx">
+      <DependentUpon>OtladkaDza3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaOtladka\OtladkaDza4.resx">
+      <DependentUpon>OtladkaDza4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaOtladka\OtladkaDza5.resx">
+      <DependentUpon>OtladkaDza5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DzaOtladka\OtladkaDza6.resx">
+      <DependentUpon>OtladkaDza6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza1_1.resx">
+      <DependentUpon>Dza1_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza1_2.resx">
+      <DependentUpon>Dza1_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza2_1.resx">
+      <DependentUpon>Dza2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza2_2.resx">
+      <DependentUpon>Dza2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza3_1.resx">
+      <DependentUpon>Dza3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza3_2.resx">
+      <DependentUpon>Dza3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza4_1.resx">
+      <DependentUpon>Dza4_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza4_2.resx">
+      <DependentUpon>Dza4_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza5_1.resx">
+      <DependentUpon>Dza5_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza5_2.resx">
+      <DependentUpon>Dza5_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza6_1.resx">
+      <DependentUpon>Dza6_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza\Dza6_2.resx">
+      <DependentUpon>Dza6_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza1_1Auto.resx">
+      <DependentUpon>Dza1_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza1_2Auto.resx">
+      <DependentUpon>Dza1_2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza2_1Auto.resx">
+      <DependentUpon>Dza2_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza2_2Auto.resx">
+      <DependentUpon>Dza2_2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza3_1Auto.resx">
+      <DependentUpon>Dza3_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza3_2Auto.resx">
+      <DependentUpon>Dza3_2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza4_1Auto.resx">
+      <DependentUpon>Dza4_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza4_2Auto.resx">
+      <DependentUpon>Dza4_2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza5_1Auto.resx">
+      <DependentUpon>Dza5_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza5_2Auto.resx">
+      <DependentUpon>Dza5_2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza6_1Auto.resx">
+      <DependentUpon>Dza6_1Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dza_Auto\Dza6_2Auto.resx">
+      <DependentUpon>Dza6_2Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelGraphic\LevelGraphic1.resx">
+      <DependentUpon>LevelGraphic1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelGraphic\LevelGraphic2.resx">
+      <DependentUpon>LevelGraphic2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelGraphic\LevelGraphic3.resx">
+      <DependentUpon>LevelGraphic3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelGraphic\LevelGraphic4.resx">
+      <DependentUpon>LevelGraphic4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelGraphic\LevelGraphic5.resx">
+      <DependentUpon>LevelGraphic5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelGraphic\LevelGraphic6.resx">
+      <DependentUpon>LevelGraphic6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv10\Conv10_1MB.resx">
+      <DependentUpon>Conv10_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv10\Conv10_2MB.resx">
+      <DependentUpon>Conv10_2MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv11\Conv11_1MB.resx">
+      <DependentUpon>Conv11_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv11\Conv11_3MB.resx">
+      <DependentUpon>Conv11_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv12\Conv12_1MB.resx">
+      <DependentUpon>Conv12_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv12\Conv12_3MB.resx">
+      <DependentUpon>Conv12_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv13\Conv13_1MB.resx">
+      <DependentUpon>Conv13_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv13\Conv13_3MB.resx">
+      <DependentUpon>Conv13_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv14\Conv14_1MB.resx">
+      <DependentUpon>Conv14_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv14\Conv14_3MB.resx">
+      <DependentUpon>Conv14_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv15\Conv15_1MB.resx">
+      <DependentUpon>Conv15_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv15\Conv15_3MB.resx">
+      <DependentUpon>Conv15_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv16\Conv16_1MB.resx">
+      <DependentUpon>Conv16_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv16\Conv16_3MB.resx">
+      <DependentUpon>Conv16_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv1\Conv1_1MB.resx">
+      <DependentUpon>Conv1_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv1\Conv1_3MB.resx">
+      <DependentUpon>Conv1_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv1\Сonv1_2MB.resx">
+      <DependentUpon>Сonv1_2MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv2\Conv2_1MB.resx">
+      <DependentUpon>Conv2_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv2\Conv2_3MB.resx">
+      <DependentUpon>Conv2_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv3\Conv3_1MB.resx">
+      <DependentUpon>Conv3_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv3\Conv3_3MB.resx">
+      <DependentUpon>Conv3_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv4\Conv4_1MB.resx">
+      <DependentUpon>Conv4_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv4\Conv4_2MB.resx">
+      <DependentUpon>Conv4_2MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv6\Conv6_1MB.resx">
+      <DependentUpon>Conv6_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv6\Conv6_3MB.resx">
+      <DependentUpon>Conv6_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv7\Conv7_1MB.resx">
+      <DependentUpon>Conv7_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv7\Conv7_3MB.resx">
+      <DependentUpon>Conv7_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv8\Conv8_1MB.resx">
+      <DependentUpon>Conv8_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv8\Conv8_3MB.resx">
+      <DependentUpon>Conv8_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv9\Conv9_1MB.resx">
+      <DependentUpon>Conv9_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Conv9\Conv9_3MB.resx">
+      <DependentUpon>Conv9_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Reserv\Conv20_1MB.resx">
+      <DependentUpon>Conv20_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Reserv\Conv20_3MB.resx">
+      <DependentUpon>Conv20_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Сonv5\Conv5_1MB.resx">
+      <DependentUpon>Conv5_1MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB\Сonv5\Conv5_3MB.resx">
+      <DependentUpon>Conv5_3MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\DispSetting.resx">
+      <DependentUpon>DispSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Journal\ActivAvarInMm.resx">
+      <DependentUpon>ActivAvarInMm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Journal\ActiveAvar2.resx">
+      <DependentUpon>ActiveAvar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Journal\ActiveAvarii.resx">
+      <DependentUpon>ActiveAvarii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Journal\HistorySobit.resx">
+      <DependentUpon>HistorySobit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Journal\JournalHist.resx">
+      <DependentUpon>JournalHist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Proizvod.resx">
+      <DependentUpon>Proizvod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Recept\ChangeRecept.resx">
+      <DependentUpon>ChangeRecept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Recept\RecForOper.resx">
+      <DependentUpon>RecForOper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Recept\RecForTehn.resx">
+      <DependentUpon>RecForTehn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\UserControl.resx">
+      <DependentUpon>UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv10Nastr.resx">
+      <DependentUpon>Conv10Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv11Nastr.resx">
+      <DependentUpon>Conv11Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv12Nastr.resx">
+      <DependentUpon>Conv12Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv13Nastr.resx">
+      <DependentUpon>Conv13Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv14Nastr.resx">
+      <DependentUpon>Conv14Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv15Nastr.resx">
+      <DependentUpon>Conv15Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv16Nastr.resx">
+      <DependentUpon>Conv16Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv1Nastr.resx">
+      <DependentUpon>Conv1Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv2Nastr.resx">
+      <DependentUpon>Conv2Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv3Nastr.resx">
+      <DependentUpon>Conv3Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv4Nastr.resx">
+      <DependentUpon>Conv4Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv5Nastr.resx">
+      <DependentUpon>Conv5Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv6Nastr.resx">
+      <DependentUpon>Conv6Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv7Nastr.resx">
+      <DependentUpon>Conv7Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv8Nastr.resx">
+      <DependentUpon>Conv8Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nastr\Conv9Nastr.resx">
+      <DependentUpon>Conv9Nastr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SensorsTabl\SensorTabl1.resx">
+      <DependentUpon>SensorTabl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SensorsTabl\SensorTabl2.resx">
+      <DependentUpon>SensorTabl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SensorsTabl\SensorTabl3.resx">
+      <DependentUpon>SensorTabl3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SensorsTabl\SensorTabl4.resx">
+      <DependentUpon>SensorTabl4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SensorsTabl\SensorTabl5.resx">
+      <DependentUpon>SensorTabl5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr10Conv9.resx">
+      <DependentUpon>ServNastr10Conv9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr11Conv10.resx">
+      <DependentUpon>ServNastr11Conv10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr12Conv11.resx">
+      <DependentUpon>ServNastr12Conv11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr13Conv12.resx">
+      <DependentUpon>ServNastr13Conv12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr14Conv13.resx">
+      <DependentUpon>ServNastr14Conv13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr15Conv14.resx">
+      <DependentUpon>ServNastr15Conv14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr16Conv15.resx">
+      <DependentUpon>ServNastr16Conv15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr17Conv16.resx">
+      <DependentUpon>ServNastr17Conv16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr18Dzm1.resx">
+      <DependentUpon>ServNastr18Dzm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr19Dzm2.resx">
+      <DependentUpon>ServNastr19Dzm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr1Obsh.resx">
+      <DependentUpon>ServNastr1Obsh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr2Conv1.resx">
+      <DependentUpon>ServNastr2Conv1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr3Conv2.resx">
+      <DependentUpon>ServNastr3Conv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr4Conv3.resx">
+      <DependentUpon>ServNastr4Conv3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr5Conv4.resx">
+      <DependentUpon>ServNastr5Conv4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr6Conv5.resx">
+      <DependentUpon>ServNastr6Conv5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr7Conv6.resx">
+      <DependentUpon>ServNastr7Conv6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr8Conv7.resx">
+      <DependentUpon>ServNastr8Conv7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisNastr\ServNastr9Conv8.resx">
+      <DependentUpon>ServNastr9Conv8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Skins\MainSkins.resx">
+      <DependentUpon>MainSkins.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\Робаты\industrial-robot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\Робаты\industrial-robot-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\play-button %281%29 - копия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\185095.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\warning-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\play-button back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\sad.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\Робаты\hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\info-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\play-button %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\play-button %282%29 - копия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\Робаты\plan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\stopwatch.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
